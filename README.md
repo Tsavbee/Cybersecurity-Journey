@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cybersecurity Journey
 
 This repository documents my eight-week hands-on cybersecurity learning journey, progressing from core cybersecurity and networking fundamentals into practical labs, assessments, and portfolio work. It serves as a structured record of study notes, exercises, observations, and future project development.
