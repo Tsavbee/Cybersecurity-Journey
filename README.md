@@ -9,7 +9,7 @@ I am currently working through the networking phase of the journey and have star
 - [x] Week 1 — Networking
   - [x] Day 1 — OSI Model and TCP/IP
   - [x] Day 2 — IPv4, CIDR and Subnetting
-  - [ ] Day 3 — TCP, UDP and Common Ports
+  - [x] Day 3 — TCP, UDP and Common Ports
   - [ ] Day 4 — DNS
   - [ ] Day 5 — HTTP/HTTPS
   - [ ] Day 6 — Wireshark
@@ -37,7 +37,8 @@ cybersecurity-journey/
 ├── README.md
 ├── week-01-networking/
 │   ├── day-01-osi-tcpip.md
-│   └── day-02-ipv4-cidr-subnetting.md
+│   ├── day-02-ipv4-cidr-subnetting.md
+│   └── day-03-tcp-udp-common-ports.md
 ├── week-02-operating-systems/
 ├── week-03-security-fundamentals/
 ├── week-04-enumeration/
