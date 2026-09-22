@@ -1,74 +1,34 @@
-
 # Cybersecurity Journey
 
-This repository documents my eight-week hands-on cybersecurity learning journey, progressing from core cybersecurity and networking fundamentals into practical labs, assessments, and portfolio work. It serves as a structured record of study notes, exercises, observations, and future project development.
+This repository is my structured learning log for a hands-on cybersecurity path. It documents my study notes, practical exercises, and progression from foundational networking concepts into broader security and offensive/defensive skills.
 
-## Goals
+## Current Status
 
-- Build a reliable foundation in networking, operating systems, and security fundamentals.
-- Develop practical skills through guided labs, hands-on exercises, and assessments.
-- Practice documenting technical concepts and investigation steps clearly.
-- Explore common cybersecurity tools and workflows in controlled environments.
-- Review progress and identify a suitable area for continued specialization.
-- Assemble selected learning outcomes into a future cybersecurity portfolio.
+I am currently working through the networking phase of the journey and have started documenting the early lessons in this repository.
 
-## 8-Week Roadmap
-
-### Week 1 — Networking
-
-- Day 1 — OSI Model and TCP/IP
-- Day 2 — IPv4, CIDR and Subnetting
-- Day 3 — TCP, UDP and Common Ports
-- Day 4 — DNS
-- Day 5 — HTTP/HTTPS
-- Day 6 — Wireshark
-- Day 7 — Networking Assessment
-
-### Week 2 — Linux and Windows
-
-Operating-system fundamentals, command-line usage, file systems, processes, permissions, and core administration concepts across Linux and Windows.
-
-### Week 3 — Security Fundamentals and Python
-
-Security principles, common threats, defensive concepts, and Python fundamentals for automation and security-focused problem solving.
-
-### Week 4 — Enumeration and Nmap
-
-Host and service discovery, enumeration methodology, interpreting scan results, and using Nmap in authorized lab environments.
-
-### Week 5 — Web Security
-
-Web technologies, common web security concepts, request and response analysis, and practical exercises in intentionally vulnerable applications.
-
-### Week 6 — Exploitation and Active Directory
-
-High-level exploitation concepts and Active Directory fundamentals, including identity, authentication, authorization, and lab-based practice.
-
-### Week 7 — CTF Practice
-
-Structured capture-the-flag practice across relevant categories, with emphasis on methodology, note-taking, and clear write-ups.
-
-### Week 8 — Portfolio, Review and Specialization
-
-Reviewing the journey, selecting representative work, improving documentation, and identifying a direction for continued learning and specialization.
-
-## Progress Tracker
-
-- [ ] Week 1 — Networking
-  - [ ] Day 1 — OSI Model and TCP/IP
-  - [ ] Day 2 — IPv4, CIDR and Subnetting
+- [x] Week 1 — Networking
+  - [x] Day 1 — OSI Model and TCP/IP
+  - [x] Day 2 — IPv4, CIDR and Subnetting
   - [ ] Day 3 — TCP, UDP and Common Ports
   - [ ] Day 4 — DNS
   - [ ] Day 5 — HTTP/HTTPS
   - [ ] Day 6 — Wireshark
   - [ ] Day 7 — Networking Assessment
-- [ ] Week 2 — Linux and Windows
-- [ ] Week 3 — Security Fundamentals and Python
-- [ ] Week 4 — Enumeration and Nmap
+- [ ] Week 2 — Operating Systems
+- [ ] Week 3 — Security Fundamentals
+- [ ] Week 4 — Enumeration and Reconnaissance
 - [ ] Week 5 — Web Security
-- [ ] Week 6 — Exploitation and Active Directory
+- [ ] Week 6 — Active Directory
 - [ ] Week 7 — CTF Practice
-- [ ] Week 8 — Portfolio, Review and Specialization
+- [ ] Week 8 — Portfolio and Review
+
+## Goals
+
+- Build a solid foundation in networking and core security principles.
+- Practice technical note-taking and clear documentation.
+- Apply concepts through guided exercises and lab-style learning.
+- Develop comfort with common protocols, tools, and attack surfaces.
+- Track progress consistently and prepare for deeper specialization later.
 
 ## Repository Structure
 
@@ -76,50 +36,40 @@ Reviewing the journey, selecting representative work, improving documentation, a
 cybersecurity-journey/
 ├── README.md
 ├── week-01-networking/
-│   └── day-01-osi-tcpip.md
+│   ├── day-01-osi-tcpip.md
+│   └── day-02-ipv4-cidr-subnetting.md
 ├── week-02-operating-systems/
 ├── week-03-security-fundamentals/
 ├── week-04-enumeration/
 ├── week-05-web-security/
 ├── week-06-active-directory/
 ├── week-07-ctf/
-└── week-08-portfolio/
+├── week-08-portfolio/
+└── .gitignore
 ```
 
-The week directories are organized chronologically. Notes, lab records, assessments, and portfolio materials can be added to the relevant section as the journey progresses.
+The repository is organized by week and topic area. As the learning path continues, additional notes, exercises, and project materials will be added to the relevant directories.
 
-## Skills and Tools
+## Learning Focus Areas
 
-The repository is being used to develop and document experience in the following areas:
-
-- Networking fundamentals and traffic analysis
-- Linux and Windows operating systems
-- Security fundamentals and Python scripting
-- Enumeration and network reconnaissance
-- Web security concepts
-- Exploitation concepts and Active Directory fundamentals
-- CTF methodology and technical documentation
-
-Tools and technologies included in the roadmap or current notes include:
-
-- `ipconfig`
-- Wireshark
-- Nmap
-- Python
-- Linux and Windows command-line environments
-- Web security testing tools used only in authorized labs
-
-This section reflects the learning scope and planned practice areas; it does not claim that every listed skill or tool has been completed or mastered.
+- Networking fundamentals and protocol behavior
+- IP addressing, subnetting, and routing basics
+- Operating system fundamentals and command-line workflows
+- Security concepts, threats, and defensive thinking
+- Enumeration, reconnaissance, and tooling
+- Web security and application attack surface analysis
+- Active Directory and identity-based security concepts
+- Capture-the-flag methodologies and structured problem solving
 
 ## Learning Method
 
-Each topic is approached through a combination of:
+Each topic is approached with a simple workflow:
 
-1. **Theory** — learning the concepts, terminology, protocols, and security principles.
-2. **Hands-on labs** — applying those concepts in controlled environments and intentionally vulnerable systems.
-3. **Documentation** — recording commands, observations, explanations, and lessons learned.
-4. **Assessments** — checking understanding through practical exercises, reviews, and structured challenges.
+1. Study the core concepts and terminology.
+2. Review practical examples and relevant tools.
+3. Document findings, commands, and observations.
+4. Reflect on how the topic connects to broader security practice.
 
-## Disclaimer
+## Ethical Use
 
-All offensive-security activities documented in this repository are performed only in authorized labs, CTFs, intentionally vulnerable systems, or systems for which I have explicit permission to test. No unauthorized scanning, access, exploitation, or testing is permitted.
+All activities documented in this repository are intended for authorized learning environments, labs, or practice systems. I do not conduct unauthorized scanning, exploitation, or access testing on any systems without explicit permission.
